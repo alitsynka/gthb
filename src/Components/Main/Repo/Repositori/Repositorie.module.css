@@ -1,0 +1,132 @@
+.Wrapper{
+	/*border: 1px solid #282c34;*/
+	background-color: pink;
+	/*width: 877px;*/
+	width: 100%;
+	height: 112px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	/*background-color: white;*/
+	margin-bottom: 12px;
+	border-radius: 6px;
+	/*border: none;*/
+	font-family: Arial;
+	font-style: normal;
+}
+.title{
+	height: 29px;
+	text-decoration: none;
+	font-weight: 550;
+	font-size: 24px;
+	line-height: 29px;
+	color: #0064EB;
+	padding-top: 24px;
+	padding-left: 32px;
+}
+.description{
+	position: static;
+	height: 19px;
+	left: 3.65%;
+	right: 29.53%;
+	/*top: calc(50% - 19px/2 + 22.5px);*/
+	
+	/*font-family: Arial;*/
+	/*font-style: normal;*/
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	padding-bottom: 24px;
+	padding-left: 32px;
+}
+@media only screen and (max-width : 415px){
+	.Wrapper{
+		/*border: 2px solid yellow;*/
+		/*width: 310px;*/
+		height: 100px;
+		width: 100%;
+		/*width: 410px;*/
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		background-color: white;
+		margin-bottom: 12px;
+		border-radius: 6px;
+		/*border: none;*/
+		box-sizing: border-box;
+	}
+	.title{
+		/*border: 2px solid greenyellow;*/
+		height: 29px;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: 550;
+		font-size: 18px;
+		line-height: 12px;
+		color: #0064EB;
+		padding-top: 5px;
+		padding-left: 5px;
+		margin-top: 10px;
+	}
+	.description{
+		/*border: 2px solid darkgreen;*/
+		/*position: static;*/
+		/*height: 30px;*/
+		/*left: 3.65%;*/
+		/*right: 29.53%;*/
+		/*white-space: nowrap;*/
+		overflow: hidden;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		/*padding-bottom: 0px;*/
+		padding-left: 5px;
+		padding-right: 5px;
+		line-height: 20px;
+	}
+}
+@media only screen and (max-width : 1176px){
+	.Wrapper{
+		/*border: 1px solid #282c34;*/
+		/*background-color: pink;*/
+		/*width: 877px;*/
+		width: 100%;
+		height: 112px;
+		background-color: white;
+		margin-bottom: 12px;
+		border-radius: 6px;
+		/*border: none;*/
+		font-family: Arial;
+		font-style: normal;
+		padding-top:0px;
+	}
+	.description{
+		overflow: hidden;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		padding-bottom: 3px;
+		padding-left: 5px;
+		padding-right: 5px;
+		margin: 0px;
+		line-height: 20px;
+	}
+	.title{
+		/*border: 2px solid greenyellow;*/
+		/*background-color: #F9F9F9;*/
+		height: 29px;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: 550;
+		font-size: 22px;
+		line-height: 12px;
+		color: #0064EB;
+		padding-top: 5px;
+		padding-left: 5px;
+		
+	}
+}
